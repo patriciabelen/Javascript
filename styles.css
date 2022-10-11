@@ -41,3 +41,21 @@ body {
     font-weight: bold;
     font-style: italic;
   }
+  #toggleJokes {
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+#toggleColor {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
