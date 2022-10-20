@@ -24,16 +24,21 @@ $(".myImage").css ("border-radius", "25px");
 
 // challenge: Prompt() the user whether the jokes on our page are good or bad. If the user responds with "bad", then change the header text to "The Worst Jokes Ever!". If the user responds with "good", keep the header text as "The Best Jokes Ever!".
 
-let ask = prompt("Are these jokes good or bad?");
-if (ask == 'bad'){
-    $("h1").html("The Worst Jokes Ever!");
-} 
-else if (ask == 'good'){
-    alert("Thanks.");
-};
+$("#buttonPrompt").click(function() {
+    let ask = prompt("Are these jokes good or bad?");
+    if (ask == 'bad'){
+        $("h1").html("The Worst Jokes Ever!");
+    } 
+    else if (ask == 'good'){
+        alert("Thanks.");
+    };
+
+
+});
+
 
 // challenge: Add a button to the page that will change the page's overall color scheme (background color, text color, etc.).
-$("#toggleColor").click(function() {
+$("#changeColor").click(function() {
     $("body").css ("background-color", "pink");
     $(".formatText").css ("color", "yellow");
     $("#joke").css ("color", "yellow");
