@@ -1,0 +1,40 @@
+body {
+    font-family: Futura, sans-serif;
+    background: pink;
+}
+h1 {
+color: magenta;
+font-weight:300;
+}
+h1 em {
+    font-weight:300;
+    font-style: italic;
+}
+p {
+    line-height: 2;
+}
+a, a:visited {
+    color: white;
+    text-decoration: none;
+    background: blue;
+    padding:5px;
+}
+a:hover {
+    background: rgba(0, 0, 255, 0.371);
+}
+#info  {
+    background: blue;
+    padding: 20px;
+}
+#info p {
+    color: white;
+    font-weight:300;
+    padding:0;
+    margin:0;
+    line-height:1.5;
+}
+#info p a, #info p a:visited {
+    color: white;
+    text-decoration: underline;
+    padding:0;
+}
