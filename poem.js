@@ -6,6 +6,16 @@ doubled = normal.map(function(myMath){
     });
 console.log(normal + " doubled is " + doubled);
 
+//challenge
+let myArray = [1, 2, 3]
+let squaredArray = []
+squaredArray = myArray.map(function(num) {
+  return num**2;
+});
+console.log(squaredArray);
+
+
+
 //Part 1 - Define the extra information section for the poem
 $("#info").html("<p>Extra info will go here.</p>");
 
