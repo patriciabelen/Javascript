@@ -1,0 +1,8 @@
+body {
+    background-color: #eee;
+    font-family: futura;
+}
+#map { 
+    height: 600px; 
+    width: 75%;
+}
