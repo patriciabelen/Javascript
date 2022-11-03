@@ -42,3 +42,6 @@ a:hover {
     text-decoration: underline;
     padding:0;
 }
+#map {
+    height: 400px;
+  }
